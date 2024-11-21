@@ -12,7 +12,7 @@ used to retrieve that instance.  `Laminas\View\Renderer\PhpRenderer` composes a
 method overloading capabilities that allow proxying method calls to helpers.
 
 <!-- markdownlint-disable-next-line header-increment -->
-> ### Callable Helpers
+> ## Callable Helpers
 >
 > Starting in version 2.7.0, if your helper does not need access to the view,
 > you can also use any PHP callable as a helper, including arbitrary objects

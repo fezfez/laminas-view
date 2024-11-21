@@ -7,7 +7,7 @@ code. The `InlineScript` helper allows you to manage both. It is derived from
 replace the usage of `headScript()` in those examples with `inlineScript()`.
 
 <!-- markdownlint-disable-next-line header-increment -->
-> ### Use InlineScript for HTML body scripts
+> ## Use InlineScript for HTML body scripts
 >
 > `InlineScript` should be used when you wish to include scripts inline in the
 > HTML `<body>`.  Placing scripts at the end of your document is a good practice
