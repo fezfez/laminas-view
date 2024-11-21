@@ -8,7 +8,7 @@ A sibling to the `Partial`, the `PartialLoop` view helper allows you to pass
 iterable data, and render a partial for each item.
 
 <!-- markdownlint-disable-next-line header-increment -->
-> ### PartialLoop Counter
+> ## PartialLoop Counter
 >
 > The `PartialLoop` view helper gives access to the current position of the
 > array within the view script via `$this->partialLoop()->getPartialCounter()`.

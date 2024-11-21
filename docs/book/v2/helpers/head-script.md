@@ -21,7 +21,7 @@ script to load; this is usually in the form of a URL or a path. For the
 to use in the element.
 
 <!-- markdownlint-disable-next-line header-increment -->
-> ### Setting Conditional Comments
+> ## Setting Conditional Comments
 >
 > `HeadScript` allows you to wrap the script tag in conditional comments, which
 > allows you to hide it from specific browsers. To add the conditional tags,
