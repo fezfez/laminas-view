@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="5.24.0@462c80e31c34e58cc4f750c656be3927e80e550e">
+<files psalm-version="5.26.1@d747f6500b38ac4f7dfc5edbcae6e4b637d7add0">
   <file src="src/Helper/AbstractHtmlElement.php">
     <MissingConstructor>
       <code><![CDATA[$closingBracket]]></code>
@@ -1374,6 +1374,11 @@
       <code><![CDATA[$this]]></code>
       <code><![CDATA[$this]]></code>
     </DeprecatedClass>
+    <DeprecatedInterface>
+      <code><![CDATA[Translator|null]]></code>
+      <code><![CDATA[Translator|null]]></code>
+      <code><![CDATA[Translator|null]]></code>
+    </DeprecatedInterface>
     <RedundantCastGivenDocblockType>
       <code><![CDATA[(bool) $enabled]]></code>
     </RedundantCastGivenDocblockType>
@@ -2940,9 +2945,6 @@
       <code><![CDATA[getFieldValue]]></code>
       <code><![CDATA[getFieldValue]]></code>
     </PossiblyUndefinedMethod>
-    <UnusedMethodCall>
-      <code><![CDATA[getContent]]></code>
-    </UnusedMethodCall>
   </file>
   <file src="test/Strategy/PhpRendererStrategyTest.php">
     <InvalidArgument>
