@@ -32,7 +32,7 @@ whether or not to autoescape values used in meta tags:
 - `setAutoEscape(bool $autoEscape = true)` (enabled by default)
 
 <!-- markdownlint-disable-next-line header-increment -->
-> ## AutoEscape
+> ### AutoEscape
 >
 > **Disable this flag at your own risk.** The one documented case where it is
 > necessary to disable the flag is when setting the `X-UA-Compatible`
